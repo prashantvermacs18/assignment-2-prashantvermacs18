@@ -18,4 +18,11 @@ public class Node<E> {
         this.data = data;
         this.next = next;
     }
+    public E getData() {
+        return data;
+    }
+
+    public Node<E> getNext() {
+        return next;
+    }
 }
