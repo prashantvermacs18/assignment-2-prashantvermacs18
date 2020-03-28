@@ -9,5 +9,12 @@ package problem1.mybst;
 
 import problem1.node.TreeNode;
 
-public class MyBinarySearchTree<E> {
+public class MyBinarySearchTree<E> implements MyBinarySearchTreeADT<E> {
+    private TreeNode<E> root;
+    public int numberOfLeftChild = 0;
+    private int maxLevel = 1;
+
+    public TreeNode<E> getRoot() {
+        return root;
+    }
 }
