@@ -14,5 +14,17 @@ public class TreeNode<E> {
     public TreeNode(E data) {
         this.data = data;
     }
+
+    public E getData() {
+        return data;
+    }
+
+    public TreeNode<E> getLeftChild() {
+        return leftChild;
+    }
+
+    public TreeNode<E> getRightChild() {
+        return rightChild;
+    }
 }
 
