@@ -25,6 +25,7 @@ public class MyMain {
         myBinarySearchTree.add(250);
         myBinarySearchTree.add(275);
         myBinarySearchTree.print();
+        System.out.println("Number of nodes who doesn't have a left Child :" + myBinarySearchTree.numberOfLeftChild);
 
     }
 }
