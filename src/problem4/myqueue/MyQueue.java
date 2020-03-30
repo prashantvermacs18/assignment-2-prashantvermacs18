@@ -6,6 +6,7 @@
  */
 package problem4.myqueue;
 // to create queue to store pre - order successor
+import problem4.adt.MyQueueADT;
 
-public class MyQueue {
+public class MyQueue<E> implements MyQueueADT<E> {
 }
