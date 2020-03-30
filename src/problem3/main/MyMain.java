@@ -7,5 +7,10 @@
 package problem3.main;
 // executable class
 // use problem5.student.Student class to create object of student
+import problem3.myqueue.MyPriorityQueue;
+import problem3.student.Student;
+
 public class MyMain {
+    public static void main(String[] args) {
+        MyPriorityQueue<Student> myPriorityQueue = new MyPriorityQueue<>();
 }
